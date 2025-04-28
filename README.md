@@ -39,7 +39,7 @@ The key entities required for the project includes:
 
 
 # API Security
-Key security measures that will be implemented includes authentication, authorization, rate limiting etc. These arwe crucial for protecting user data and securing payments.
+Key security measures that will be implemented includes authentication, authorization, rate limiting etc. These are crucial for protecting user data and securing payments.
 1. REST API: Detailed documentation available through the OpenAPI standard, including endpoints for users, properties, bookings, and payments.
 2. GraphQL API: Provides a flexible query language for retrieving and manipulating data.
 
