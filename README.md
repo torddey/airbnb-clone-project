@@ -36,3 +36,9 @@ The key entities required for the project includes:
 4. Payment Processing: Integrate a payment system to handle transactions and record payment details.
 5. Review System: Allow users to leave reviews and ratings for properties.
 6. Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
+
+
+# API Security
+Key security measures that will be implemented includes authentication, authorization, rate limiting etc. These arwe crucial for protecting user data and securing payments.
+1. REST API: Detailed documentation available through the OpenAPI standard, including endpoints for users, properties, bookings, and payments.
+2. GraphQL API: Provides a flexible query language for retrieving and manipulating data.
