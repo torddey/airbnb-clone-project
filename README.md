@@ -30,15 +30,31 @@ The key entities required for the project includes:
 
 
 # Feature Breakdown
-1. User Management: Implement a secure system for user registration, authentication, and profile management.
-2. Property Management: Develop features for property listing creation, updates, and retrieval.
-3. Booking System: Create a booking mechanism for users to reserve properties and manage booking details.
-4. Payment Processing: Integrate a payment system to handle transactions and record payment details.
-5. Review System: Allow users to leave reviews and ratings for properties.
-6. Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
+1. User Management
+Endpoints: /users/, /users/{user_id}/
+Features: Register new users, authenticate, and manage user profiles.
+2. Property Management
+Endpoints: /properties/, /properties/{property_id}/
+Features: Create, update, retrieve, and delete property listings.
+3. Booking System
+Endpoints: /bookings/, /bookings/{booking_id}/
+Features: Make, update, and manage bookings, including check-in and check-out details.
+4. Payment Processing
+Endpoints: /payments/
+Features: Handle payment transactions related to bookings.
+5. Review System
+Endpoints: /reviews/, /reviews/{review_id}/
+Features: Post and manage reviews for properties.
+6. Database Optimizations
+Indexing: Implement indexes for fast retrieval of frequently accessed data.
+Caching: Use caching strategies to reduce database load and improve performance.
 
 
 # API Security
 Key security measures that will be implemented includes authentication, authorization, rate limiting etc. These arwe crucial for protecting user data and securing payments.
 1. REST API: Detailed documentation available through the OpenAPI standard, including endpoints for users, properties, bookings, and payments.
 2. GraphQL API: Provides a flexible query language for retrieving and manipulating data.
+
+
+# CI/CD Pipeline
+Using automated development pipelines, boosting efficiency and minimizing errors during the deployment phase using tools such as Github Actions or Docker.
