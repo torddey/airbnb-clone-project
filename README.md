@@ -22,32 +22,20 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
 
 # Database Design
 The key entities required for the project includes:
-1. Users: can have have multiple properties
-2. Properties: belongs to a user
+1. Users: can have multiple properties
+2. Properties: belongs to a user and have multiple reviews
 3. Bookings: belongs to a property
-4. Payments: belongs to a booking
+4. Payments: belongs to a booking and user
 5. Reviews: properties can have multiple reviews 
 
 
 # Feature Breakdown
-1. User Management
-Endpoints: /users/, /users/{user_id}/
-Features: Register new users, authenticate, and manage user profiles.
-2. Property Management
-Endpoints: /properties/, /properties/{property_id}/
-Features: Create, update, retrieve, and delete property listings.
-3. Booking System
-Endpoints: /bookings/, /bookings/{booking_id}/
-Features: Make, update, and manage bookings, including check-in and check-out details.
-4. Payment Processing
-Endpoints: /payments/
-Features: Handle payment transactions related to bookings.
-5. Review System
-Endpoints: /reviews/, /reviews/{review_id}/
-Features: Post and manage reviews for properties.
-6. Database Optimizations
-Indexing: Implement indexes for fast retrieval of frequently accessed data.
-Caching: Use caching strategies to reduce database load and improve performance.
+1. User Management: Implement a secure system for user registration, authentication, and profile management.
+2. Property Management: Develop features for property listing creation, updates, and retrieval.
+3. Booking System: Create a booking mechanism for users to reserve properties and manage booking details.
+4. Payment Processing: Integrate a payment system to handle transactions and record payment details.
+5. Review System: Allow users to leave reviews and ratings for properties.
+6. Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
 
 
 # API Security
